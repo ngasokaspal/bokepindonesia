@@ -46,17 +46,6 @@ export default function RootLayout({
             },
             "foundingDate":"2024-05-29"
         }
-        const jsonLd1 = {
-            "@context": "https://schema.org",
-        "@type": "WebPage",
-        "name": `Bokep Indonesia`,
-        "url": "https://bokepindonesia.pages.dev",
-        "description": `Bokep Indonesia Video Bokep Indo Jepang Jav Barat Simontok Viral Terbaru Bocil Ngentot Jilbab Smp Mama Sma korea china tante live paksa ngentot abg cewek pelajar.`,
-        "image": "https://bokepindonesia.pages.dev/favicon.ico",
-        "potentialAction":{
-            "@type":"ReadAction",
-            "target":"https://bokepindonesia.pages.dev"}
-        }
         const jsonLd2 = {
             "@context": "https://schema.org",
         "@type": "WebSite",
@@ -83,16 +72,11 @@ export default function RootLayout({
         />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd1) }}
-        />
-        <script
-          type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd2) }}
         />
                     {children}
                 </ThemeProvider>
             </body>
-<Script src="https://js.juicyads.com/jp.php?c=947403z2v256s2x2w2e4z2e4&u=http%3A%2F%2Fwww.juicyads.rocks"/>
         </html>
     );
 }
